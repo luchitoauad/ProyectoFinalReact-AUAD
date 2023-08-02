@@ -1,0 +1,23 @@
+.Number{
+    margin: 5px;
+
+}
+.Button{
+    border-radius: 8px;
+    border-color:azure;
+    margin: 5px;
+}
+
+.Controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+
+.Agregarcarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
