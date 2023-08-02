@@ -11,7 +11,7 @@ function NavBar() {
     <>
 <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home"><img src={logo} alt="logomoto" class='logomoto'/></Navbar.Brand>
+          <Navbar.Brand href="#home"><img src={logo} alt="logomoto" className='logomoto'/></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#cascos">Cascos</Nav.Link>
             <Nav.Link href="#camperas">Camperas</Nav.Link>
