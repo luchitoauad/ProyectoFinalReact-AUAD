@@ -1,0 +1,28 @@
+.ListGroup{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.CardItem{
+    margin: 20px;
+    background-color: rgb(121, 126, 126);
+    border-radius: 20px;
+
+}
+
+.Info{
+
+}
+
+.ItemImg{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.ItemHeader{
+font-size:xx-large;
+
+}

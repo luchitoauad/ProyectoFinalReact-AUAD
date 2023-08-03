@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './estilos/NavBar.css';
 import './estilos/CartWidget.css';
 import ItemCount from './components/ItemCount/ItemCount';
+import './estilos/Item.css'
+import './estilos/ItemCount.css'
 
 
 function App() {
