@@ -24,5 +24,9 @@ justify-content: center;
 
 .ItemHeader{
 font-size:xx-large;
+padding: 5px;
+}
 
+.ItemFooter{
+    padding:10px;
 }

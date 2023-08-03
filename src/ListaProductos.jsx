@@ -22,7 +22,7 @@ const products =[
 
     {
         id: '3',
-        name: 'Guantes Nine to One cuero ',
+        name: 'Guantes Nine To One',
         price: 30000,
         category: 'Guantes',
         img: 'https://http2.mlstatic.com/D_NQ_NP_920201-MLA52404892750_112022-O.webp',
