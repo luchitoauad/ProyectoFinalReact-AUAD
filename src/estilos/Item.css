@@ -6,7 +6,11 @@ justify-content: center;
 
 .CardItem{
     margin: 20px;
+<<<<<<< HEAD
     background-color: rgb(51, 51, 51);
+=======
+    background-color: rgb(60, 60, 60);
+>>>>>>> caf9e380f5f917347f3ea5d322015414f785625f
     border-radius: 20px;
 
 }
