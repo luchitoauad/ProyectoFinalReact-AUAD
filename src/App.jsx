@@ -7,6 +7,7 @@ import './estilos/CartWidget.css';
 import ItemCount from './components/ItemCount/ItemCount';
 import './estilos/Item.css'
 import './estilos/ItemCount.css'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <div className="App">
         <NavBar/>
         <ItemListContainer greeting={'Bienvenido a MotoStar'}/> 
-        <ItemCount initial={1} stock={12} onAdd={(quantity) => console.log('Cantidad agregada ',quantity)}/>
+        <ItemDetailContainer/>
       </div>
       
   );
