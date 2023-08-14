@@ -1,7 +1,7 @@
 import '../../estilos/ItemDetailContainer.css'
 import { useState, useEffect } from 'react'
 import { getProductById } from '../../ListaProductos'
-import ItemDetalle from '../ItemDetalle/ItemDetalle'
+import ItemDetail from '../ItemDetail/ItemDetail'
 
 
 const ItemDetailContainer = () => {
@@ -19,7 +19,7 @@ const ItemDetailContainer = () => {
 
     return (
         <div className='ItemDetailContainer'>
-            <ItemDetalle {...product}/>
+            <ItemDetail {...product}/>
         </div>
     )
 }

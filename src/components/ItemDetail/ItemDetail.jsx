@@ -1,7 +1,7 @@
 import '../../estilos/ItemDetalle.css'
 import ItemCount from '../ItemCount/ItemCount'
 
-const ItemDetalle = ({ id, name, img, category, description, price, stock}) => { 
+const ItemDetail = ({ id, name, img, category, description, price, stock}) => { 
     return(
         <article className="CardItem">
             <header className="Header">
@@ -33,4 +33,4 @@ const ItemDetalle = ({ id, name, img, category, description, price, stock}) => {
     )
 }
 
-export default ItemDetalle
+export default ItemDetail
