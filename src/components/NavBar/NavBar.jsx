@@ -12,18 +12,15 @@ function NavBar() {
     <>
 <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Link to='/'>
-          <Navbar.Brand href="#home"><img src={logo} alt="logomoto" className='logomoto'/></Navbar.Brand>
-          </Link>
+          <NavLink to={'/'} href="#home"><img src={logo} alt="logomoto" className='logomoto'/></NavLink>
           <Nav className="me-auto">
-            <NavLink to={`/category/Casco`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}> Cascos </NavLink>
-            <NavLink to={`/category/Camperas`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}> Camperas </NavLink>
-            <NavLink to={`/category/Guantes`} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}> Guantes </NavLink>
+            <NavLink to={`/category/Casco`} className="Option"> Cascos </NavLink>
+            <NavLink to={`/category/Camperas`} className="Option"> Camperas </NavLink>
+            <NavLink to={`/category/Guantes`} className="Option"> Guantes </NavLink>
           </Nav>
         </Container>
         <CartWidget/>
       </Navbar>
-
     </>
   );
 }

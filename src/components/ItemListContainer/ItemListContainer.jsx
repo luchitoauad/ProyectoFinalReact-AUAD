@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { getProducts, getProductsByCategory } from '../../ListaProductos'
+import { getProducts, getProductsByCategory } from '../../ListaProductos'   //a chequear el getproductsByCategory
 import ItemList from '../ItemList/ItemList'
 import { useParams } from "react-router-dom"
 
