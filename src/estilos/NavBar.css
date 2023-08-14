@@ -4,3 +4,11 @@
     border-style:double;
 }
 
+.Option{
+        padding: 10px 20px;
+        background-color: #333333;
+        color: white;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }

@@ -1,4 +1,5 @@
 import '../../estilos/Item.css'
+import {Link} from 'react-router-dom'
 
 const Item =({ id, name, img, price, stock}) => {
 
@@ -18,7 +19,7 @@ const Item =({ id, name, img, price, stock}) => {
                 </p>
             </section>
             <footer className="ItemFooter">
-                <button className="Option">Ver Detalle</button>
+                <Link to={`/item/${id}`} className="Option">Ver Detalle</Link>
             </footer>
         </article>
     )

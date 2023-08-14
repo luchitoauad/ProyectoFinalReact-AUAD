@@ -4,7 +4,7 @@ const products =[
         id: '1',
         name: 'Campera Proskin cuero',
         price: 500000,
-        category:'camperas',
+        category:'Camperas',
         img:'https://http2.mlstatic.com/D_NQ_NP_787600-MLA70635028287_072023-O.webp',
         stock: 20,
         description: 'Campera de cuero con muestra clara de que estilo y seguridad pueden convivir equilibradamente en un producto.'
@@ -43,6 +43,14 @@ export const getProductById = (productId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(products.find(prod => prod.id === productId))
+        }, 500)
+    })
+}
+
+export const getProductsByCategory = (productCategory) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(products.find(prod => prod.category=== productCategory))
         }, 500)
     })
 }
