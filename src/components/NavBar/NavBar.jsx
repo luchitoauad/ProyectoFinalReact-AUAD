@@ -14,7 +14,7 @@ function NavBar() {
         <Container>
           <NavLink to={'/'} href="#home"><img src={logo} alt="logomoto" className='logomoto'/></NavLink>
           <Nav className="me-auto">
-            <NavLink to={`/category/Casco`} className="Option"> Cascos </NavLink>
+            <NavLink to={`/category/Cascos`} className="Option"> Cascos </NavLink>
             <NavLink to={`/category/Camperas`} className="Option"> Camperas </NavLink>
             <NavLink to={`/category/Guantes`} className="Option"> Guantes </NavLink>
           </Nav>

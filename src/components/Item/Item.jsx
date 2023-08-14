@@ -1,7 +1,7 @@
 import '../../estilos/Item.css'
 import {Link} from 'react-router-dom'
 
-const Item =({ id, name, img, price, stock}) => {
+const Item =({ id, name, img, price}) => {
 
     return (
         <article className="CardItem">
