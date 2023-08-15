@@ -28,7 +28,38 @@ const products =[
         img: 'https://http2.mlstatic.com/D_NQ_NP_920201-MLA52404892750_112022-O.webp',
         stock: 34,
         description:'Un guante ligero con protección en nudillos, refuerzo en palma y puño de neoprene.'
+    },
+
+    {
+        id: '4',
+        name: 'Campera Moto Ninetoone',
+        price: 120000,
+        category: 'Camperas',
+        img: 'https://http2.mlstatic.com/D_NQ_NP_851152-MLA50021352045_052022-O.webp',
+        stock: 14,
+        description:'La Campera Race 3 es Urbana de Softshell. Con Elastano y membrana impermeable de 8000 H2O.'
+    },
+
+    {
+        id: '5',
+        name: 'Guantes Brooklyn Riders',
+        price: 78000,
+        category: 'Guantes',
+        img: 'https://http2.mlstatic.com/D_NQ_NP_772872-MLA70277671544_072023-O.webp',
+        stock: 25,
+        description:'Guantes de cuero, con protecciones.Construcción 100% cuero vacuno para una excelente resistencia a la abrasión'
+    },
+
+    {
+        id: '6',
+        name: 'Casco Ls2 352',
+        price: 70000,
+        category: 'Cascos',
+        img: 'https://http2.mlstatic.com/D_NQ_NP_750453-MLA54847380397_042023-O.webp',
+        stock: 10,
+        description:'Casco aerodinámico pintado con resina HPTT (Tecnología termoplástica de alta presión).'
     }
+
 ]
 
 export const getProducts = () => {
