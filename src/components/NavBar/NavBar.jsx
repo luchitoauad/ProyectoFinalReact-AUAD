@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import CartWidget from '../CartWidget/CartWidget';
 import logo from '../../imagenes/logomotoChico.jpg';
 import '../../estilos/NavBar.css';
-import {NavLink, Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 
 function NavBar() {

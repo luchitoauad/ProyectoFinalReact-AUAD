@@ -10,6 +10,7 @@ import './estilos/ItemCount.css'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
+import Cart from './components/Cart/Cart'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path='/' element={<ItemListContainer greeting={'Bienvenidos a MotoStar'}/>}/>
             <Route path='/category/:categoryId' element={<ItemListContainer greeting={'Bienvenidos a MotoStar'} />}/>
             <Route path='/item/:itemId' element={ <ItemDetailContainer />}/>
+            <Route path='/cart' element={ <Cart/>}/>
             <Route path='*' element={<h1>404 NOT FOUND</h1>}/>
           </Routes>
           </CartProvider>
