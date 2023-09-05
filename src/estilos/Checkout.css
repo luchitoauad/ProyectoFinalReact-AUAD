@@ -1,3 +1,30 @@
+.Form{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
 
+.Label{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
 
+.Input{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    margin: 10px;
+}
 
+.Buttoncheck{
+    border-radius: 8px;
+    margin: 5px;
+    border-color: rgb(58, 58, 58);
+    border-width: 5px;
+}

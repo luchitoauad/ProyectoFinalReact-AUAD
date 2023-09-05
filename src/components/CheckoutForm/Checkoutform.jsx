@@ -47,7 +47,7 @@ const CheckoutForm = ({ onConfirm}) =>{
                         />
                     </label>
                     <div className='Label'>
-                        <button type='subtmit' className='Button'> Crear Orden</button>
+                        <button type='subtmit' className='Buttoncheck'> Crear Orden</button>
                     </div>
                 </form>
             </div>
