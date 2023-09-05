@@ -30,10 +30,12 @@ const Checkout =() => {
 
             const outOfStock = []
 
-            const ids = cart.map(prod => prod.id)
+            const ids = cart.map(product => product.id)
 
             const productsRef = collection(db, 'Productos')
 
+            console.log('IDs del carrito:', ids);
+            
             const productsAddedFromFirestore = await getDocs(query(productsRef, where(documentId(), 'in',ids )))
 
             const {docs} = productsAddedFromFirestore
